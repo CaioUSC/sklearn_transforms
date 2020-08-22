@@ -1,6 +1,7 @@
 from sklearn.base import BaseEstimator, TransformerMixin
 from lightgbm import LGBMClassifier
 from imblearn.over_sampling import SMOTE
+import pandas as pd
 
 
 # All sklearn Transforms must have the `transform` and `fit` methods
