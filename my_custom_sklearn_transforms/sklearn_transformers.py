@@ -18,7 +18,7 @@ class DropColumns(BaseEstimator, TransformerMixin):
         # Retornamos um novo dataframe sem as colunas indesejadas
         return data.drop(labels=self.columns, axis='columns')
 
-class SmoteResample(object):
+class SmoteData(object):
     def __init__(self):
         pass
 
